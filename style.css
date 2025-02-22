@@ -11,3 +11,51 @@
 * {
     font-family: roboto;
 }
+
+/*Section 1*/
+
+.flex-container {
+    height: auto;
+}
+
+.one{
+    background-color: #1F2937;
+    padding: 200px;
+    margin: 0px;
+    color: #F9FAF8;
+    display: flex;
+}
+
+.hero_text{
+    font-size: 48px;
+    font-weight: 900S;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: #F9FAF8;
+    border: none;
+}
+
+.right{
+    background-color: lightgrey;
+    text-align: center;
+}
+
+/*Section 2*/
+
+.two_container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .box {
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    border: 4px solid darkslategray;
+  }
+
+  /*Section 3*/
+
