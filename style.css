@@ -107,10 +107,19 @@ button {
   /*Section 3*/
 
 .three{
-    display: flex;
     justify-content: center; 
-    font-size: 36px;
     color: #1F2937;
-    background-color: #E5E7EB;
-    text-align: center;
+    background-color: hsl(220, 13%, 91%);
+    
+    padding: 200px;
+}
+
+.big_text{
+    text-align: left;
+    font-size: 36px;
+}
+
+.small_text{
+    text-align: right;
+    font-size: 20px;
 }
