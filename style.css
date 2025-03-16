@@ -46,7 +46,7 @@ h2{
     font-weight: 900S;
 }
 
-button {
+.first {
     background-color: #3882f6;
     border-radius: 5px;
     color: #F9FAF8;
@@ -110,8 +110,7 @@ button {
     justify-content: center; 
     color: #1F2937;
     background-color: hsl(220, 13%, 91%);
-    
-    padding: 200px;
+    padding: 100px;
 }
 
 .big_text{
@@ -122,4 +121,32 @@ button {
 .small_text{
     text-align: right;
     font-size: 20px;
+}
+
+  /*Section 4*/
+
+  .four{
+    border-radius: 3px;
+    margin:10px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    width: 80%;
+    height: 40px;
+    text-align: left;
+  }
+
+  .second {
+    margin-left: 100px;
+    background-color: #F9FAF8;
+    border-radius: 5px;
+    color: #3882f6;
+    border: none;
+    width: 100px;
+    height: 20px;
+    margin-top: 10px;
 }
